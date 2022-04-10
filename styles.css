@@ -1,0 +1,140 @@
+body {
+    overflow-x: hidden;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+}
+
+#menu {
+    width: 100px;
+    background-color: #40c4ff;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 101;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.menuIcon {
+    height: 10%;
+    width: 100%;
+    color: white;
+}
+
+#navbar {
+    height: 7vh;
+    background-color: #0094cc;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 101;
+    overflow-y: hidden;
+}
+
+.logo {
+    height: 7vh;
+}
+
+#main {
+    height: 93vh;
+}
+
+.menuIcon:hover {
+    background-color: white;
+    color: #0094cc;
+    border-radius: 9%;
+    transition: all .5s;
+}
+
+#links{
+    color: white;
+}
+#links:hover {
+    color: #0094cc;
+}
+
+#bannerPlanes{
+    width: 101%;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/vector-gratis/avion-o-aeronave-anuncio-mensaje-blanco-banner-plantilla-texto_109709-507.jpg?w=1800');
+}
+
+#vacationBanner {
+    transition: all 1s;
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/914929/pexels-photo-914929.jpeg');
+}
+
+#vacationBanner2 {
+    transition: all 1s;
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/944433/pexels-photo-944433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
+#vacationBanner2:hover {
+    filter: blur(6px);
+}
+
+#vacationBanner3 {
+    transition: all .5s;
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/6467621/pexels-photo-6467621.jpeg');
+}
+
+#vacationBanner3:hover {
+   
+}
+
+.filter{
+    filter: blur(6px);
+}
+#parrVacation1{
+    transition: all 1s;
+    opacity: 0;
+}
+
+#parrVacation1:hover {
+    opacity: 1;
+}
+
+
+#parrVacation2 {
+    transition: all 1s;
+    opacity: 0;
+}
+
+#parrVacation2:hover {
+    opacity: 1;
+}
+
+#parrVacation3 {
+    transition: all 1s;
+    opacity: 0;
+}
+
+#parrVacation3:hover {
+    opacity: 1;
+}
+
+
+
+
